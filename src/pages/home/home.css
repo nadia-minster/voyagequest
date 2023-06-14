@@ -8,7 +8,7 @@ label {
   background-image: url("../../assets/background.png");
   display: flex;
   background-size: cover;
-  height: 70vh;
+  height: 60vh;
   min-height: 500px;
   box-shadow: var(--shadow-medium);
   align-items: center;
@@ -18,7 +18,7 @@ label {
 
 .c-hero ::before {
   content: "";
-  height: 73vh;
+  height: 65vh;
   min-height: 520px;
   width: 100%;
   position: absolute;

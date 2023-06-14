@@ -1,0 +1,98 @@
+.c-navbar {
+  height: 58px;
+  background: var(--clr-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(2rem, 9vw, 8rem);
+}
+
+.c-navbar__links {
+  display: flex;
+  gap: 20px;
+}
+
+.c-navbar__links--link {
+  transition: 0.4s ease-in-out;
+  font-size: 18px;
+}
+
+.c-navbar__links--link:hover {
+  color: var(--clr-text-green);
+}
+
+.c-navbar-mobile {
+  position: sticky;
+  z-index: 10;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  width: 100%;
+}
+
+.c-navbar__logo {
+  font-size: 24px;
+  letter-spacing: 3px;
+  font-weight: var(--fw-primary-medium-bold);
+  text-transform: uppercase;
+  color: var(--clr-text-green);
+  justify-self: center;
+}
+
+.c-mobilenav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.c-mobilenav__btn--icon {
+  font-size: 1rem;
+}
+.c-mobilenav__btn {
+  border-radius: 10px;
+  display: grid;
+}
+
+.c-mobilenav__navigation {
+  width: 100%;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+  gap: 12px;
+  transition: height 0.3s ease-in;
+  background: var(--clr-light);
+  overflow: hidden;
+}
+
+.c-mobilenav__hidden {
+  height: 0vh;
+}
+
+.c-mobilenav__open {
+  height: 300px;
+  box-shadow: var(--shadow-medium);
+}
+
+.c-mobilenav__menu-icon {
+  font-size: 24px;
+  fill: var(--clr-dark);
+  cursor: pointer;
+}
+
+.c-mobilenav__navigation--mobile-link {
+  font-size: 22px;
+  color: var(--clr-dark);
+  transition: 0.4s ease-in-out;
+  width: 200px;
+  padding-left: 1rem;
+  border-radius: 5px;
+}
+
+.c-mobilenav__navigation--mobile-link:hover {
+  margin-left: 1rem;
+  background: var(--clr-secondary-yellow);
+}
