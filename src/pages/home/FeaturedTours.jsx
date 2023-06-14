@@ -1,17 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useState } from "react";
 import { useGlobalContext } from "../../context/context";
 import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import "./cards.css";
 
 const FeaturedTours = () => {
-  const [scrollPerClick, setScrollPerClick] = useState(400);
+  const scrollPerClick = 400;
   const { tours_data } = useGlobalContext();
-
-  const numCards = 3;
-  const cardWidth = 74 / 3; // Adjust the percentage based on your desired width
-  const sliderWidth = numCards * cardWidth;
 
   const allTours = tours_data
     .filter((tour) => tour.featured)
