@@ -1,0 +1,1155 @@
+{
+  "tours_data": [
+    {
+      "name": "Tropical Paradise",
+      "info": "7-day trip to an exotic island with white sand beaches, turquoise waters, and tropical rainforests.",
+      "info_extended": "Embark on a 5-day adventure to a hidden gem in Southeast Asia, where you'll discover an exotic island paradise with pristine white sand beaches, crystal-clear turquoise waters, and lush tropical rainforests. This tour is the perfect opportunity to escape the hustle and bustle of everyday life and immerse yourself in a world of natural wonders, cultural richness, and pure relaxation.",
+      "img": "1.jpg",
+      "img_large": "1-large.jpg",
+      "id": 1,
+      "featured": true,
+      "location": "Asia",
+      "price": 1500,
+      "score": 50,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival and Beach Time",
+          "description": "Arrive on the island and relax on the beautiful white sand beaches."
+        },
+        {
+          "day": "Day 2",
+          "title": "Snorkeling Adventure",
+          "description": "Take a boat ride to a nearby coral reef for an exciting snorkeling adventure."
+        },
+        {
+          "day": "Day 3",
+          "title": "Rainforest Trekking",
+          "description": "Explore the lush tropical rainforests of the island on a guided trekking tour."
+        },
+        {
+          "day": "Day 4",
+          "title": "Relaxation Day",
+          "description": "Take a break from the activities and enjoy a day of relaxation on the beach or at the resort."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Say goodbye to the island and depart for the airport."
+        }
+      ]
+    },
+    {
+      "name": "Historic Europe",
+      "info": "5-day tour of Europe's most famous historic landmarks, including the Eiffel Tower, the Colosseum, and the Acropolis.",
+      "info_extended": "Embark on a breathtaking 5-day tour of Europe's most iconic historical landmarks, including the enchanting Eiffel Tower, the majestic Colosseum in Rome, and the stunning Acropolis in Athens. Enjoy the rich history, culture, and beauty of Europe as you explore these legendary sites and create unforgettable memories",
+      "img": "2.jpg",
+      "img_large": "2-large.jpg",
+      "id": 2,
+      "featured": true,
+      "location": "Europe",
+      "price": 3200,
+      "score": 10,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Paris",
+          "description": "Arrive in Paris and explore the city's famous landmarks such as the Eiffel Tower, the Louvre, and Notre Dame Cathedral."
+        },
+        {
+          "day": "Day 2",
+          "title": "Paris - Rome",
+          "description": "Fly to Rome and spend the day exploring the ancient Colosseum and the Roman Forum."
+        },
+        {
+          "day": "Day 3",
+          "title": "Rome",
+          "description": "Visit the Vatican City and see the awe-inspiring art and architecture of St. Peter's Basilica and the Sistine Chapel."
+        },
+        {
+          "day": "Day 4",
+          "title": "Athens",
+          "description": "Fly to Athens and explore the Acropolis, the Parthenon, and the ancient Agora."
+        },
+        {
+          "day": "Day 5",
+          "title": "Athens",
+          "description": "Spend the day soaking up the culture and cuisine of Athens before departing for home."
+        }
+      ]
+    },
+    {
+      "name": "Wild Safari",
+      "info": "5-day adventure through the African savannah, where you'll see lions, elephants, and giraffes in their natural habitat.",
+      "info_extended": "Experience the thrill of a lifetime on this 5-day adventure through the African savannah. Witness lions, elephants, and giraffes roaming free in their natural habitat, while expert guides provide insights into their behaviors and environments. The journey will take you through breathtaking landscapes and allow you to connect with nature in a way that few other experiences can match.",
+      "img": "3.jpg",
+      "img_large": "3-large.jpg",
+      "id": 3,
+      "featured": true,
+      "location": "Africa",
+      "price": 4300,
+      "score": 220,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Maun, Botswana",
+          "description": "You'll be picked up at the airport and transferred to your lodge in the Okavango Delta, where you'll have a chance to relax and settle in before your safari begins."
+        },
+        {
+          "day": "Day 2",
+          "title": "Okavango Delta Safari",
+          "description": "You'll spend the day exploring the Okavango Delta by boat and on foot, accompanied by an experienced guide who will help you spot elephants, hippos, crocodiles, and a variety of bird species."
+        },
+        {
+          "day": "Day 3",
+          "title": "Moremi Game Reserve",
+          "description": "You'll travel to the Moremi Game Reserve, which is home to a large concentration of wildlife, including lions, leopards, cheetahs, hyenas, and wild dogs."
+        },
+        {
+          "day": "Day 4",
+          "title": "Chobe National Park",
+          "description": "You'll visit Chobe National Park, which is famous for its large herds of elephants and buffalo. You'll go on a game drive and a boat safari to see these majestic animals up close."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "You'll have breakfast at the lodge before being transferred back to the airport for your departure."
+        }
+      ]
+    },
+    {
+      "name": "Asian Odyssey",
+      "info": "Journey through Asia's most fascinating cities, including Tokyo, Hong Kong, and Singapore.",
+      "info_extended": "Discover the vibrant cultures and modern metropolises of Asia on this 5-day journey through Tokyo, Hong Kong, and Singapore. Immerse yourself in the bustling city streets, tantalize your taste buds with exotic cuisine, and experience the rich history and architecture of these fascinating destinations.",
+      "img": "4.jpg",
+      "img_large": "4-large.jpg",
+      "id": 4,
+      "featured": true,
+      "location": "Asia",
+      "price": 1900,
+      "score": 15,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Tokyo",
+          "description": "Arrive in Tokyo and settle in at your hotel. Spend the rest of the day exploring the city at your own pace."
+        },
+        {
+          "day": "Day 2",
+          "title": "Tokyo City Tour",
+          "description": "Take a full-day tour of Tokyo's famous landmarks, including the Imperial Palace, the Meiji Shrine, and the iconic Tokyo Tower."
+        },
+        {
+          "day": "Day 3",
+          "title": "Fly to Hong Kong",
+          "description": "Take a morning flight to Hong Kong and check into your hotel. Spend the afternoon exploring the city's bustling streets and vibrant markets."
+        },
+        {
+          "day": "Day 4",
+          "title": "Hong Kong Island Tour",
+          "description": "Embark on a full-day tour of Hong Kong Island, including Victoria Peak, Stanley Market, and the historic Aberdeen fishing village."
+        },
+        {
+          "day": "Day 5",
+          "title": "Explore Singapore",
+          "description": "Fly to Singapore and check into your hotel. Spend the day exploring the city's diverse neighborhoods, including Chinatown, Little India, and the colorful Marina Bay Sands complex."
+        }
+      ]
+    },
+    {
+      "name": "Northern Lights Adventure",
+      "info": "5-day trip to Iceland to see the Aurora Borealis, including a visit to the Blue Lagoon and a tour of Reykjavik.",
+      "info_extended": "Experience the magic of the Aurora Borealis on this 5-day trip to Iceland. Marvel at the stunning natural phenomenon and relax in the famous Blue Lagoon. Discover the charming city of Reykjavik and its unique culture.",
+      "img": "5.jpg",
+      "img_large": "5-large.jpg",
+      "id": 5,
+      "featured": true,
+      "location": "Europe",
+      "price": 2300,
+      "score": 150,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Reykjavik",
+          "description": "Arrive in Reykjavik and transfer to your hotel. Spend the rest of the day at leisure, exploring the city and getting acclimated to your new surroundings."
+        },
+        {
+          "day": "Day 2",
+          "title": "Tour of Reykjavik",
+          "description": "Take a guided tour of Reykjavik and discover its charming streets and unique culture."
+        },
+        {
+          "day": "Day 3",
+          "title": "Visit to the Blue Lagoon",
+          "description": "Relax in the famous Blue Lagoon, a geothermal spa surrounded by stunning natural scenery. "
+        },
+        {
+          "day": "Day 4",
+          "title": "Aurora Borealis tour",
+          "description": "Embark on a tour to see the stunning Aurora Borealis, a natural phenomenon that lights up the sky with brilliant colors. "
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer to the airport for your departure flight, taking with you unforgettable memories of your trip to Iceland."
+        }
+      ]
+    },
+    {
+      "name": "Romantic Getaway",
+      "info": " 3-day trip to a luxury resort, with a couple's massage, private dinners, and stunning views of the ocean.",
+      "info_extended": "Description: Treat yourself and your significant other to a luxurious 3-day getaway at a breathtaking oceanfront resort. You'll enjoy a relaxing couple's massage, intimate private dinners, and stunning views of the crystal-clear waters.",
+      "img": "6.jpg",
+      "img_large": "6-large.jpg",
+      "id": 6,
+      "featured": true,
+      "location": "Asia",
+      "price": 1100,
+      "score": 45,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival and Couples Massage",
+          "description": "Upon arrival, you will be greeted by our staff and escorted to your luxurious suite. Relax and unwind with a 90-minute couples massage at the resort's spa."
+        },
+        {
+          "day": "Day 2",
+          "title": "Private Dinner and Ocean View",
+          "description": "Enjoy a romantic private dinner for two on the resort's terrace with stunning views of the ocean."
+        },
+        {
+          "day": "Day 3",
+          "title": "Departure",
+          "description": "Check-out of your suite and say goodbye to the luxury resort as you depart for your next adventure."
+        }
+      ]
+    },
+    {
+      "name": "Mountain Expedition",
+      "info": " 5-day trek through the Himalayas, with breathtaking views of the world's tallest mountains and opportunities to explore local villages.",
+      "info_extended": "Experience the awe-inspiring beauty of the Himalayas on this 5-day trek, where you'll encounter breathtaking views of the world's tallest mountains and discover the unique culture of local villages.",
+      "img": "7.jpg",
+      "img_large": "7-large.jpg",
+      "id": 7,
+      "featured": true,
+      "location": "Asia",
+      "price": 3500,
+      "score": 130,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Kathmandu",
+          "description": "Arrive in Kathmandu and check in to your hotel. Spend the rest of the day exploring the city."
+        },
+        {
+          "day": "Day 2",
+          "title": "Drive to Starting Point",
+          "description": "After breakfast, drive to the starting point of the trek. Begin your journey through lush forests and picturesque villages."
+        },
+        {
+          "day": "Day 3",
+          "title": "Hike to Base Camp",
+          "description": "Continue your trek to the base camp, where you'll enjoy stunning views of the surrounding mountains and valleys."
+        },
+        {
+          "day": "Day 4",
+          "title": "Explore Local Villages",
+          "description": "Take a break from hiking and spend the day exploring local villages, meeting the friendly locals and learning about their culture."
+        },
+        {
+          "day": "Day 5",
+          "title": "Return to Kathmandu",
+          "description": "After breakfast, begin your descent back to the starting point. Drive back to Kathmandu and depart for your next adventure."
+        }
+      ]
+    },
+    {
+      "name": "Foodie Tour",
+      "info": "5-day culinary adventure through Italy, with cooking classes, wine tastings, and visits to the country's best restaurants.",
+      "info_extended": "Experience the heart of Italian cuisine with our carefully curated tour featuring cooking classes, wine tastings, and visits to the country's top restaurants. Book now to taste the authentic flavors of Italy!",
+      "img": "8.jpg",
+      "img_large": "8-large.jpg",
+      "id": 8,
+      "featured": true,
+      "location": "Europe",
+      "price": 5500,
+      "score": 10000,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Rome",
+          "description": "Check into your hotel in Rome and enjoy some free time to explore the city on your own."
+        },
+        {
+          "day": "Day 2",
+          "title": "Pasta-Making Class and Wine Tasting in Tuscany",
+          "description": "Travel to the picturesque region of Tuscany and attend a hands-on pasta-making class followed by a wine tasting at a local vineyard."
+        },
+        {
+          "day": "Day 3",
+          "title": "Truffle Hunting and Cooking Class in Umbria",
+          "description": "Embark on a truffle hunting adventure in the Umbrian countryside and then learn to cook with your freshly-found truffles during a private cooking class."
+        },
+        {
+          "day": "Day 4",
+          "title": "Pizza-Making Class and Food Tour in Naples",
+          "description": "Travel to Naples and attend a pizza-making class at a local pizzeria. In the afternoon, take a guided food tour of the city's best culinary hotspots."
+        },
+        {
+          "day": "Day 5",
+          "title": "Farewell Dinner in Rome",
+          "description": "Return to Rome for a farewell dinner at one of the city's most renowned restaurants, where you can enjoy the best of Italian cuisine with new friends and unforgettable memories."
+        }
+      ]
+    },
+    {
+      "name": "Island Hopping",
+      "info": "4-day tour of the Greek islands, with stops in Santorini, Mykonos, and Crete.",
+      "info_extended": "Discover the beauty and charm of Santorini, Mykonos, and Crete with our 4-day tour of the Greek islands. From stunning beaches and crystal-clear waters to traditional villages and ancient ruins, this tour has something for everyone. Book now and create unforgettable memories in Greece.",
+      "img": "9.jpg",
+      "img_large": "9-large.jpg",
+      "id": 9,
+      "featured": true,
+      "location": "Europe",
+      "price": 1900,
+      "score": 20,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Santorini",
+          "description": "Explore the stunning island of Santorini, famous for its white-washed buildings and breathtaking views of the Aegean Sea."
+        },
+        {
+          "day": "Day 2",
+          "title": "Mykonos",
+          "description": "Take a ferry to the island of Mykonos, known for its cosmopolitan atmosphere and lively nightlife."
+        },
+        {
+          "day": "Day 3",
+          "title": "Crete",
+          "description": "Enjoy a scenic ferry ride to Crete, Greece's largest island, and explore its charming villages and historic sites."
+        },
+        {
+          "day": "Day 4",
+          "title": "Departure",
+          "description": "Depart from Crete and say goodbye to the beautiful Greek islands."
+        }
+      ]
+    },
+    {
+      "name": "Road Trip Adventure",
+      "info": "4-day journey across the USA, from the Grand Canyon to the beaches of California, with stops in Las Vegas and New Orleans.",
+      "info_extended": "Embark on a thrilling 4-day journey across the USA, starting at the awe-inspiring Grand Canyon, then hitting up the vibrant city of Las Vegas for some glitz and glamour. From there, head to the lively streets of New Orleans for some jazz and Southern charm before ending your adventure on the sun-kissed beaches of California. This trip promises to be a perfect blend of natural beauty, cultural experiences, and city adventures.",
+      "img": "10.jpg",
+      "img_large": "10-large.jpg",
+      "id": 10,
+      "featured": true,
+      "location": "North America",
+      "price": 3500,
+      "score": 60,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Grand Canyon National Park",
+          "description": "Spend a full day exploring the awe-inspiring beauty of the Grand Canyon National Park, hike its trails and enjoy its breathtaking views."
+        },
+        {
+          "day": "Day 2",
+          "title": "Las Vegas",
+          "description": "Travel to the vibrant city of Las Vegas and experience its world-famous nightlife, casinos, and entertainment shows."
+        },
+        {
+          "day": "Day 3",
+          "title": "New Orleans",
+          "description": "Fly to the lively streets of New Orleans, a melting pot of cultures, and explore its vibrant music scene, unique architecture and indulge in its famous cuisine."
+        },
+        {
+          "day": "Day 4",
+          "title": "California Beaches",
+          "description": "Fly to the sunny beaches of California and relax on the sand, swim in the ocean, and enjoy the beautiful sunset over the Pacific Ocean."
+        }
+      ]
+    },
+    {
+      "name": "African Explorer",
+      "info": "5-day trip to Africa's most remote regions, including the Kalahari Desert and the Okavango Delta.",
+      "info_extended": "Embark on an unforgettable 5-day adventure through the wilds of Africa's remote regions, where you'll witness nature at its most raw and untouched. Journey deep into the Kalahari Desert, where the vast landscapes stretch out before you in shades of gold and orange, and witness incredible wildlife like lions, hyenas, and meerkats in their natural habitat. Then, explore the unique ecosystem of the Okavango Delta, where the crystal-clear waters of the delta offer an abundance of wildlife sightings, from elephants and hippos to crocodiles and a multitude of bird species. ",
+      "img": "11.jpg",
+      "img_large": "11-large.jpg",
+      "id": 11,
+      "featured": true,
+      "location": "Africa",
+      "price": 3900,
+      "score": 250,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Maun",
+          "description": "Arrive in Maun and transfer to your luxurious lodge in the heart of the Kalahari Desert."
+        },
+        {
+          "day": "Day 2",
+          "title": "Kalahari Desert Safari",
+          "description": "Embark on a full-day safari through the Kalahari Desert, with opportunities to spot lions, hyenas, and meerkats in their natural habitat."
+        },
+        {
+          "day": "Day 3",
+          "title": "Okavango Delta",
+          "description": "Take a scenic flight to the Okavango Delta and settle into your luxury accommodations."
+        },
+        {
+          "day": "Day 4",
+          "title": "Wildlife in the Delta",
+          "description": "Explore the unique ecosystem of the Okavango Delta on a full-day wildlife safari, with opportunities to spot elephants, hippos, crocodiles, and a multitude of bird species."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Maun for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Mystical India",
+      "info": "5-day tour of India's most enchanting destinations, including the Taj Mahal, Jaipur, and Varanasi.",
+      "info_extended": "Embark on a 5-day journey to explore the cultural heritage of India, visiting some of its most iconic destinations. Marvel at the grandeur of the Taj Mahal, take in the colorful sights and sounds of Jaipur, and experience the spiritual ambiance of Varanasi. This tour promises to be an unforgettable experience that will leave you with a deep appreciation for the rich history and vibrant culture of India.",
+      "img": "12.jpg",
+      "img_large": "12-large.jpg",
+      "id": 12,
+      "featured": true,
+      "location": "Asia",
+      "price": 1400,
+      "score": 44,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Delhi",
+          "description": "Meet and greet with your tour guide at the airport and transfer to your hotel. After checking in and freshening up, enjoy a leisurely day exploring the vibrant city of Delhi on your own."
+        },
+        {
+          "day": "Day 2",
+          "title": "Taj Mahal visit",
+          "description": "After breakfast, travel to Agra to visit the world-renowned Taj Mahal. Spend the day exploring this stunning monument to love and its surrounding gardens before returning to your hotel in Delhi in the evening."
+        },
+        {
+          "day": "Day 3",
+          "title": "Jaipur city tour",
+          "description": "In the morning, drive to Jaipur, also known as the 'Pink City'. Visit the Amber Fort and take a tour of the city's famous landmarks, including the Hawa Mahal, Jantar Mantar, and City Palace. In the evening, return to your hotel for dinner and relaxation."
+        },
+        {
+          "day": "Day 4",
+          "title": "Varanasi exploration",
+          "description": "Fly to the spiritual city of Varanasi in the morning. Upon arrival, take a boat ride on the Ganges River and witness the daily rituals performed by the locals. Later, visit the famous Kashi Vishwanath Temple and the Bharat Mata Temple. Return to your hotel for an overnight stay."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "After breakfast, transfer to the airport for your flight back home, taking with you memories of a lifetime from this enchanting journey."
+        }
+      ]
+    },
+    {
+      "name": "Amazon Jungle Expedition",
+      "info": "6-day trip to explore the Amazon rainforest, with wildlife spotting, river cruises, and visits to local tribes.",
+      "info_extended": "Embark on a once-in-a-lifetime adventure through the Amazon rainforest. On this 6-day tour, you'll have the opportunity to spot an array of exotic wildlife, from monkeys and sloths to colorful birds and river dolphins. You'll explore the vast network of rivers and waterways on guided river cruises, witness breathtaking sunsets, and even visit local indigenous tribes to learn about their culture and way of life. Immerse yourself in the beauty and wonder of one of the world's most incredible natural wonders.",
+
+      "img": "13.jpg",
+      "img_large": "13-large.jpg",
+      "id": 13,
+      "featured": true,
+      "location": "South America",
+      "price": 4500,
+      "score": 57,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Manaus",
+          "description": "Arrive in Manaus and transfer to your hotel. Enjoy a welcome dinner and get to know your fellow travelers."
+        },
+        {
+          "day": "Day 2",
+          "title": "Amazon River Cruise",
+          "description": "Embark on a full-day guided river cruise along the Amazon River, spotting wildlife and taking in the stunning scenery. Stop for lunch at a riverside restaurant."
+        },
+        {
+          "day": "Day 3",
+          "title": "Local Indigenous Tribe Visit",
+          "description": "Visit a local indigenous tribe to learn about their culture and way of life. Enjoy a traditional lunch with the tribe before returning to your lodge for the evening."
+        },
+        {
+          "day": "Day 4",
+          "title": "Wildlife Spotting",
+          "description": "Embark on a guided hike through the rainforest, spotting exotic wildlife such as monkeys, sloths, and colorful birds. In the evening, enjoy a sunset boat ride on the river."
+        },
+        {
+          "day": "Day 5",
+          "title": "Canopy Walk and Nighttime Safari",
+          "description": "Experience the rainforest from above on a canopy walk, followed by a nighttime safari to spot nocturnal animals such as owls and bats."
+        },
+        {
+          "day": "Day 6",
+          "title": "Departure",
+          "description": "Transfer back to Manaus for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Winter Wonderland",
+      "info": "5-day trip to Lapland to experience the magic of winter, including husky sledding, ice fishing, and a visit to Santa's village.",
+      "info_extended": "Experience the wonderland of Lapland in the heart of winter with this 5-day trip. Discover the thrill of husky sledding through the snow-covered wilderness, test your skills at ice fishing, and get in the festive mood with a visit to Santa's village. Marvel at the northern lights and enjoy the tranquil surroundings of this magical destination.",
+      "img": "14.jpg",
+      "img_large": "14-large.jpg",
+      "id": 14,
+      "featured": true,
+      "location": "Europe",
+      "price": 3000,
+      "score": 142,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Lapland",
+          "description": "Arrive at the airport and transfer to your hotel. Spend the rest of the day getting familiar with the surroundings."
+        },
+        {
+          "day": "Day 2",
+          "title": "Husky Sledding",
+          "description": "Experience the thrill of husky sledding through the snowy wilderness. Enjoy the beautiful scenery and the adrenaline rush of this unique activity."
+        },
+        {
+          "day": "Day 3",
+          "title": "Ice Fishing",
+          "description": "Test your skills at ice fishing. Learn from the experts and catch your own fish to be cooked for dinner."
+        },
+        {
+          "day": "Day 4",
+          "title": "Visit to Santa's Village",
+          "description": "Get in the festive mood with a visit to Santa's village. Meet Santa Claus and his elves, and enjoy the winter wonderland."
+        },
+        {
+          "day": "Day 5",
+          "title": "Northern Lights",
+          "description": "Experience the natural beauty of the Northern Lights. Marvel at the breathtaking spectacle in the clear Lapland sky."
+        }
+      ]
+    },
+    {
+      "name": "Relaxing Retreat",
+      "info": "3-day retreat to a remote resort, with yoga classes, meditation sessions, and spa treatments.",
+      "info_extended": "Escape the hustle and bustle of daily life with a 3-day retreat to a remote resort. Indulge in daily yoga classes, meditation sessions, and relaxing spa treatments. Let the stress melt away as you reconnect with your mind, body, and spirit in a tranquil natural setting",
+      "img": "15.jpg",
+      "img_large": "15.jpg",
+      "id": 15,
+      "featured": true,
+      "location": "Oceania",
+      "price": 1200,
+      "score": 45,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival and Welcome",
+          "description": "Arrive at the remote resort and settle into your accommodations. Enjoy a welcome drink and meet your retreat leaders and fellow participants."
+        },
+        {
+          "day": "Day 2",
+          "title": "Yoga and Meditation",
+          "description": "Start your day with a gentle yoga class to awaken your body and mind. After breakfast, enjoy a guided meditation session to calm your thoughts and find inner peace. In the afternoon, relax by the pool or book a spa treatment."
+        },
+        {
+          "day": "Day 3",
+          "title": "Advanced Yoga and Spa Day",
+          "description": "Today's yoga class is more advanced, giving you the opportunity to challenge your body and deepen your practice. After lunch, indulge in a full day at the spa, with access to the sauna, hot tub, and other facilities. In the evening, gather with your group for a closing ceremony and reflection session."
+        }
+      ]
+    },
+    {
+      "name": "Wildlife Adventure in Yellowstone",
+      "info": "5-day tour to explore the wildlife and natural wonders of Yellowstone National Park",
+      "info_extended": "Discover the beauty of Yellowstone National Park on this 5-day adventure. You'll have the chance to witness geysers, hot springs, and other geological wonders, as well as spotting a variety of wildlife, including bison, elk, wolves, and bears. Your days will be filled with guided hikes, wildlife safaris, and visits to popular attractions like Old Faithful. Come experience the natural wonder of Yellowstone!",
+      "img": "16.jpg",
+      "img_large": "16-large.jpg",
+      "id": 16,
+      "featured": false,
+      "location": "North America",
+      "price": 2500,
+      "score": 210,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Yellowstone",
+          "description": "Arrive in Yellowstone and transfer to your lodge. Meet your fellow travelers and enjoy a welcome dinner."
+        },
+        {
+          "day": "Day 2",
+          "title": "Geysers and Hot Springs",
+          "description": "Explore the geysers and hot springs of Yellowstone with a guided tour. Learn about the unique geological features and the history of the park."
+        },
+        {
+          "day": "Day 3",
+          "title": "Wildlife Safari",
+          "description": "Embark on a wildlife safari to spot bison, elk, wolves, and other animals that call Yellowstone home. Enjoy a picnic lunch in the park."
+        },
+        {
+          "day": "Day 4",
+          "title": "Hiking and Sightseeing",
+          "description": "Take a guided hike through the beautiful Yellowstone landscape and visit popular attractions like Old Faithful. Enjoy dinner at the lodge."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to the airport for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Rocky Mountains Adventure",
+      "info": "5-day trip to explore the stunning Rocky Mountains, with hiking, wildlife spotting, and scenic drives.",
+      "info_extended": "Immerse yourself in the breathtaking beauty of the Rocky Mountains on this 5-day adventure. You'll explore the rugged terrain on guided hikes, spot wildlife such as bears and elk, and take in the stunning scenery on scenic drives through the mountains. With comfortable accommodations and knowledgeable guides, this trip is the perfect way to experience one of North America's most iconic natural wonders.",
+      "img": "17.jpg",
+      "img_large": "17-large.jpg",
+      "id": 17,
+      "featured": false,
+      "location": "North America",
+      "price": 3000,
+      "score": 45,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Denver",
+          "description": "Arrive in Denver and transfer to your hotel. Spend the day getting familiar with the city and enjoying a welcome dinner."
+        },
+        {
+          "day": "Day 2",
+          "title": "Guided Hike",
+          "description": "Embark on a guided hike through the mountains, taking in the stunning scenery and spotting wildlife along the way. Enjoy a picnic lunch in a picturesque setting."
+        },
+        {
+          "day": "Day 3",
+          "title": "Scenic Drive",
+          "description": "Take a scenic drive through the mountains, stopping at picturesque viewpoints and enjoying a picnic lunch. In the evening, relax at your hotel or explore the nearby town."
+        },
+        {
+          "day": "Day 4",
+          "title": "Wildlife Spotting",
+          "description": "Embark on a guided wildlife spotting tour, where you'll have the opportunity to see bears, elk, and other iconic Rocky Mountain wildlife. In the evening, enjoy a sunset cocktail hour with panoramic mountain views."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Denver for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Alaska Wilderness Adventure",
+      "info": "5-day trip to explore the Alaskan wilderness, with hiking, wildlife spotting, and glacier tours.",
+      "info_extended": "Embark on a thrilling adventure through the Alaskan wilderness. On this 5-day tour, you'll hike through rugged terrain, spot an array of exotic wildlife, and explore the awe-inspiring glaciers of the region. You'll witness breathtaking vistas of snow-capped peaks, crystal-clear lakes, and verdant forests. Immerse yourself in the rugged beauty and wonder of one of America's last frontiers.",
+      "img": "18.jpg",
+      "img_large": "18-large.jpg",
+      "id": 18,
+      "featured": false,
+      "location": "North America",
+      "price": 3200,
+      "score": 320,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Anchorage",
+          "description": "Arrive in Anchorage and transfer to your hotel. Enjoy a welcome dinner and get to know your fellow travelers."
+        },
+        {
+          "day": "Day 2",
+          "title": "Hiking and Wildlife Spotting",
+          "description": "Embark on a guided hike through the wilderness, spotting wildlife such as moose, bears, and bald eagles. Enjoy a picnic lunch in the great outdoors."
+        },
+        {
+          "day": "Day 3",
+          "title": "Glacier Tour",
+          "description": "Take a guided tour of the awe-inspiring glaciers of the region. Marvel at the beauty and power of these ancient natural wonders."
+        },
+        {
+          "day": "Day 4",
+          "title": "Dog Sledding",
+          "description": "Experience the thrill of dog sledding through the snow-covered landscape. Learn about the history and culture of this unique Alaskan tradition."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Anchorage for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Canadian Rockies Adventure",
+      "info": "5-day tour of the stunning Canadian Rockies, with hiking, canoeing, and wildlife spotting.",
+      "info_extended": "Embark on a journey through the breathtaking Canadian Rockies, where you'll be surrounded by soaring mountains, pristine lakes, and abundant wildlife. This 5-day adventure includes hiking through mountain trails, canoeing across crystal-clear waters, and spotting an array of wildlife, from grizzly bears to bighorn sheep. Immerse yourself in the natural beauty of this incredible region and experience the thrill of adventure in the great outdoors.",
+      "img": "19.jpg",
+      "img_large": "19-large.jpg",
+      "id": 19,
+      "featured": false,
+      "location": "North America",
+      "price": 2500,
+      "score": 220,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Banff",
+          "description": "Arrive in Banff and transfer to your hotel. Spend the day exploring the charming town and its surroundings."
+        },
+        {
+          "day": "Day 2",
+          "title": "Hiking in Banff National Park",
+          "description": "Embark on a guided hike through the stunning scenery of Banff National Park, taking in panoramic views of the mountains and valleys. Enjoy a picnic lunch in the great outdoors."
+        },
+        {
+          "day": "Day 3",
+          "title": "Canoeing on Lake Louise",
+          "description": "Explore the crystal-clear waters of Lake Louise by canoe, surrounded by breathtaking mountain scenery. Afterward, relax in the hot springs at Banff."
+        },
+        {
+          "day": "Day 4",
+          "title": "Wildlife Spotting in Jasper National Park",
+          "description": "Head to Jasper National Park for a guided wildlife spotting tour, where you'll have the chance to see grizzly bears, bighorn sheep, and other native wildlife. Enjoy a picnic lunch in the park."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Banff for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "Andes Mountains Trek",
+      "info": "5-day hiking trip through the Andes Mountains, with breathtaking views and cultural experiences.",
+      "info_extended": "Get ready for an unforgettable adventure through the stunning Andes Mountains. On this 5-day tour, you'll hike through breathtaking landscapes, including snow-capped peaks, crystal-clear lakes, and lush forests. Along the way, you'll also have the opportunity to experience local culture, including traditional music and dance performances, and taste delicious regional cuisine. This tour is perfect for nature lovers and adventure seekers looking to explore one of South America's most iconic destinations.",
+      "img": "20.jpg",
+      "img_large": "20-large.jpg",
+      "id": 20,
+      "featured": true,
+      "location": "South America",
+      "price": 2800,
+      "score": 47,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Cusco",
+          "description": "Arrive in Cusco and transfer to your hotel. Spend the day exploring the city at your leisure."
+        },
+        {
+          "day": "Day 2",
+          "title": "Sacred Valley Hike",
+          "description": "Embark on a full-day guided hike through the Sacred Valley, passing through traditional villages and taking in stunning views of the Andes Mountains. Enjoy a picnic lunch in a scenic location."
+        },
+        {
+          "day": "Day 3",
+          "title": "Rainbow Mountain Trek",
+          "description": "Embark on a challenging full-day trek to Rainbow Mountain, a stunning peak with vibrant colors caused by mineral deposits. Take in the breathtaking views and snap some photos before returning to your lodge for the evening."
+        },
+        {
+          "day": "Day 4",
+          "title": "Pisac Ruins and Cultural Experience",
+          "description": "Visit the ancient ruins of Pisac, where you'll learn about the history and culture of the Inca Empire. Afterward, enjoy a traditional Peruvian lunch and a live music and dance performance."
+        },
+        {
+          "day": "Day 5",
+          "title": "Machu Picchu Tour",
+          "description": "Take a guided tour of the iconic Machu Picchu, one of the world's most famous archaeological sites. Learn about the fascinating history of this ancient city and take in the breathtaking views of the surrounding mountains."
+        }
+      ]
+    },
+    {
+      "name": "Amazon River Cruise",
+      "info": "5-day journey through the Amazon River, with wildlife spotting, nature hikes, and cultural experiences.",
+      "info_extended": "Experience the beauty of the Amazon River on this 5-day journey. You'll have the opportunity to spot a variety of wildlife, including pink river dolphins, macaws, and howler monkeys. Take guided hikes through the lush rainforest, learning about the flora and fauna along the way. You'll also have the chance to visit local communities and learn about their traditional way of life. This trip is perfect for nature lovers and those looking for an authentic Amazonian adventure.",
+      "img": "21.jpg",
+      "img_large": "21-large.jpg",
+      "id": 21,
+      "location": "South America",
+      "featured": true,
+      "price": 2500,
+      "score": 60,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Manaus",
+          "description": "Arrive in Manaus and transfer to your hotel. Enjoy a welcome dinner and get to know your fellow travelers."
+        },
+        {
+          "day": "Day 2",
+          "title": "Amazon River Cruise",
+          "description": "Embark on a guided river cruise along the Amazon River, stopping to spot wildlife and take in the stunning scenery. Visit a local community and learn about their traditional way of life."
+        },
+        {
+          "day": "Day 3",
+          "title": "Nature Hike",
+          "description": "Take a guided hike through the rainforest, learning about the flora and fauna along the way. Visit a local farm and learn about sustainable agriculture in the Amazon."
+        },
+        {
+          "day": "Day 4",
+          "title": "Pink River Dolphin Spotting",
+          "description": "Take a guided excursion to spot pink river dolphins, macaws, and howler monkeys. Enjoy a farewell dinner with your fellow travelers in the evening."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Manaus for your departure flight."
+        }
+      ]
+    },
+    {
+      "name": "New Zealand Adventure",
+      "info": "5-day adventure trip exploring the natural beauty of New Zealand's South Island, with hiking, kayaking, and wildlife viewing.",
+      "info_extended": "Embark on an unforgettable adventure through the stunning landscapes of New Zealand's South Island. On this 5-day trip, you'll explore the rugged coastline, pristine lakes, and towering mountains through hiking, kayaking, and wildlife viewing. Discover the hidden gems of the island, including stunning waterfalls, remote beaches, and unique wildlife such as seals, penguins, and dolphins. Immerse yourself in the natural beauty of one of the world's most breathtaking destinations.",
+      "img": "22.jpg",
+      "img_large": "22-large.jpg",
+      "id": 22,
+      "featured": true,
+      "location": "Oceania",
+      "price": 1000,
+      "score": 31,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Queenstown",
+          "description": "Arrive in Queenstown and transfer to your hotel. Enjoy a welcome dinner and get to know your fellow travelers."
+        },
+        {
+          "day": "Day 2",
+          "title": "Milford Sound Kayaking",
+          "description": "Embark on a full-day kayaking trip through the stunning Milford Sound. Paddle among towering waterfalls, lush rainforest, and stunning fjords. Enjoy a picnic lunch on a remote beach."
+        },
+        {
+          "day": "Day 3",
+          "title": "Mount Aspiring National Park Hike",
+          "description": "Explore the stunning Mount Aspiring National Park on a guided hike. Discover stunning waterfalls, remote alpine valleys, and breathtaking mountain vistas. Enjoy a picnic lunch in the park before returning to your hotel."
+        },
+        {
+          "day": "Day 4",
+          "title": "Wildlife Viewing",
+          "description": "Take a guided tour to view the unique wildlife of the region, including seals, penguins, and dolphins. In the afternoon, relax at a remote beach and enjoy a picnic lunch."
+        },
+        {
+          "day": "Day 5",
+          "title": "Queenstown Adventure Activities",
+          "description": "Experience the thrill of adventure in Queenstown, with activities such as bungee jumping, zip-lining, or skydiving. Alternatively, enjoy a relaxing day exploring the town's boutiques and cafes. Transfer to the airport for your departure flight in the evening."
+        }
+      ]
+    },
+    {
+      "name": "Great Barrier Reef Adventure",
+      "info": "5-day exploration of the Great Barrier Reef, with snorkeling, scuba diving, and wildlife spotting.",
+      "info_extended": "Embark on a 5-day adventure to explore the world-famous Great Barrier Reef. Snorkel and scuba dive to discover the colorful coral gardens and diverse marine life, including sea turtles, tropical fish, and reef sharks. Take a guided tour to the outer reef to see the best of the underwater world. In addition, spot whales and dolphins from the boat and explore the pristine white-sand beaches of the islands.",
+      "img": "23.jpg",
+      "img_large": "23-large.jpg",
+      "id": 23,
+      "featured": true,
+      "location": "Oceania",
+      "price": 3500,
+      "score": 245,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Cairns",
+          "description": "Arrive in Cairns and transfer to your hotel. Enjoy a welcome dinner and briefing on the upcoming adventures."
+        },
+        {
+          "day": "Day 2",
+          "title": "Snorkeling and Coral Gardens",
+          "description": "Snorkel in the shallow waters to discover the colorful coral gardens and the vibrant marine life. In the evening, enjoy a sunset boat ride and stargazing."
+        },
+        {
+          "day": "Day 3",
+          "title": "Outer Reef Scuba Diving",
+          "description": "Take a guided tour to the outer reef to experience the best of the underwater world with scuba diving. Swim with sea turtles, tropical fish, and reef sharks. After the tour, relax on the boat and spot whales and dolphins."
+        },
+        {
+          "day": "Day 4",
+          "title": "Island Hopping",
+          "description": "Explore the pristine white-sand beaches of the islands and enjoy the activities on offer, such as kayaking, paddleboarding, and beach volleyball. In the evening, enjoy a beach BBQ and a bonfire."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Cairns for your departure flight, with unforgettable memories of the Great Barrier Reef adventure."
+        }
+      ]
+    },
+    {
+      "name": "Island Hopping in Fiji",
+      "info": "5-day tour of the beautiful islands of Fiji, with beach hopping, snorkeling, and traditional Fijian cultural experiences.",
+      "info_extended": "Embark on a 5-day adventure through the tropical paradise of Fiji. You'll hop from island to island, exploring the pristine beaches, crystal-clear waters, and rich culture of the Fijian people. Swim and snorkel among colorful coral reefs and exotic marine life, and relax on some of the world's most beautiful beaches. You'll also have the opportunity to experience traditional Fijian village life, including a kava ceremony and meke dance performance. Come discover the magic of Fiji!",
+      "img": "24.jpg",
+      "img_large": "24-large.jpg",
+      "id": 24,
+      "featured": false,
+      "location": "Oceania",
+      "price": 2500,
+      "score": 55,
+      "itinerary": [
+        {
+          "day": "Day 1",
+          "title": "Arrival in Nadi",
+          "description": "Arrive in Nadi and transfer to your hotel. Spend the day at leisure, relaxing by the pool or exploring the town."
+        },
+        {
+          "day": "Day 2",
+          "title": "Beach Hopping",
+          "description": "Embark on a full-day island hopping tour, visiting some of the most beautiful beaches in Fiji. Snorkel among vibrant coral reefs and soak up the sun on white sand beaches."
+        },
+        {
+          "day": "Day 3",
+          "title": "Traditional Fijian Village Visit",
+          "description": "Visit a traditional Fijian village to learn about the local culture and way of life. Enjoy a kava ceremony and a meke dance performance, followed by a traditional Fijian feast."
+        },
+        {
+          "day": "Day 4",
+          "title": "Snorkeling and Island Exploration",
+          "description": "Spend the day snorkeling and exploring the islands at your leisure. Optional activities include paddleboarding, kayaking, and hiking."
+        },
+        {
+          "day": "Day 5",
+          "title": "Departure",
+          "description": "Transfer back to Nadi for your departure flight."
+        }
+      ]
+    }
+  ],
+
+  "quiz": {
+    "questions": [
+      {
+        "id": 0,
+        "question_title": "Weather",
+        "question": "What type of climate do you prefer on your vacation?",
+        "possible_answers": [
+          {
+            "text": "Warm and tropical",
+            "image": "quiz-img/warm.jpg",
+            "credit": "Asad Photo Maldives",
+            "score": 15
+          },
+          {
+            "text": "Mild temperature",
+            "image": "quiz-img/mild.jpg",
+            "credit": "Chris J Mitchell",
+            "score": 0
+          },
+          {
+            "text": "Cold and snowy",
+            "image": "quiz-img/snowy.jpg",
+            "credit": "David Jusko",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "question_title": "Cuisine",
+        "question": "What type of cuisine do you prefer?",
+        "possible_answers": [
+          {
+            "text": "Spicy and exotic",
+            "image": "quiz-img/exotic.jpg",
+            "credit": "Alex Knight",
+            "score": 5
+          },
+          {
+            "text": "Traditional and local",
+            "image": "quiz-img/traditional.jpg",
+            "credit": "Lum3n",
+            "score": 2
+          },
+          {
+            "text": "Gourmet and upscale",
+            "image": "quiz-img/gourmet.jpg",
+            "credit": "Kamil Kalbarczyk",
+            "score": 10000
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "question_title": "Hotel",
+        "question": "What type of accommodation do you prefer?",
+        "possible_answers": [
+          {
+            "text": "Luxury resort",
+            "image": "quiz-img/luxury.jpg",
+            "credit": "Cory Bjork",
+            "score": 10
+          },
+          {
+            "text": "Boutique hotel",
+            "image": "quiz-img/boutique.jpg",
+            "credit": "Alexandre Brondino",
+            "score": 1
+          },
+          {
+            "text": "Rustic cabin",
+            "image": "quiz-img/rustic.jpg",
+            "credit": "Ian Keefe",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "question_title": "Wildlife",
+        "question": "How important is wildlife to your trip?",
+        "possible_answers": [
+          {
+            "text": "Very important",
+            "image": "quiz-img/important.jpg",
+            "credit": "CZdeněk Macháček",
+            "score": 200
+          },
+          {
+            "text": "Somewhat important",
+            "image": "quiz-img/somewhat.jpg",
+            "credit": "Matthew Lakeland",
+            "score": 10
+          },
+          {
+            "text": "Not important",
+            "image": "quiz-img/not-important.jpg",
+            "credit": "Clay LeConey",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "question_title": "Travel Style",
+        "question": "What's your travel style?",
+        "possible_answers": [
+          {
+            "text": "Adventurous",
+            "image": "quiz-img/adventurous.jpg",
+            "credit": "Valdemaras D.",
+            "score": 10
+          },
+          {
+            "text": "Cultural",
+            "image": "quiz-img/cultural.jpg",
+            "credit": "Nathanael Lim",
+            "score": 3
+          },
+          {
+            "text": "Relaxing",
+            "image": "quiz-img/relaxing.jpg",
+            "credit": "The Anam",
+            "score": 15
+          }
+        ]
+      }
+    ]
+  },
+  "reviews": {
+    "reviews": [
+      {
+        "id": 1,
+        "name": "John Smith",
+        "img": "avatars/1.jpg",
+        "date": "2021-09-02",
+        "review": "This tour was amazing! Highly recommended."
+      },
+      {
+        "id": 2,
+        "name": "Jane Doe",
+        "img": "avatars/2.jpg",
+        "date": "2022-03-15",
+        "review": "Had a fantastic time on this tour. Great itinerary!"
+      },
+      {
+        "id": 3,
+        "name": "Mike Johnson",
+        "img": "avatars/3.jpg",
+        "date": "2020-11-28",
+        "review": "One of the best tours I've been on. Great value for money!"
+      },
+      {
+        "id": 4,
+        "name": "Lisa Thompson",
+        "img": "avatars/4.jpg",
+        "date": "2023-01-10",
+        "review": "Excellent tour. The tour guide was very knowledgeable and friendly."
+      },
+      {
+        "id": 5,
+        "name": "David Lee",
+        "img": "avatars/5.jpg",
+        "date": "2022-08-21",
+        "review": "Had a blast on this tour! Would definitely do it again."
+      },
+      {
+        "id": 6,
+        "name": "Amy Chen",
+        "img": "avatars/6.jpg",
+        "date": "2021-05-03",
+        "review": "The sights on this tour were breathtaking. Definitely worth it!"
+      },
+      {
+        "id": 7,
+        "name": "Robert Johnson",
+        "img": "avatars/7.jpg",
+        "date": "2020-12-05",
+        "review": "Great tour, great group of people. Would recommend to anyone!"
+      },
+      {
+        "id": 8,
+        "name": "Sarah Park",
+        "img": "avatars/8.jpg",
+        "date": "2022-06-19",
+        "review": "Loved every moment of this tour. The accommodations were fantastic!"
+      },
+      {
+        "id": 9,
+        "name": "Erica Smiths",
+        "img": "avatars/9.jpg",
+        "date": "2023-02-28",
+        "review": "The tour guide was amazing, and the itinerary was well-planned."
+      },
+      {
+        "id": 10,
+        "name": "Tom Davis",
+        "img": "avatars/10.jpg",
+        "date": "2021-12-01",
+        "review": "This tour exceeded my expectations. 10/10 would recommend!"
+      },
+      {
+        "id": 11,
+        "name": "Josh Lee",
+        "img": "avatars/11.jpg",
+        "date": "2022-09-17",
+        "review": "The tour was well-organized, and the guide was very helpful."
+      },
+      {
+        "id": 12,
+        "name": "James Kim",
+        "img": "avatars/12.jpg",
+        "date": "2020-10-11",
+        "review": "Had a great time on this tour. Would definitely recommend to others!"
+      },
+      {
+        "id": 13,
+        "name": "Katie Lee",
+        "img": "avatars/13.jpg",
+        "date": "2023-04-09",
+        "review": "This tour was an unforgettable experience. Thank you to the tour guide!"
+      },
+      {
+        "id": 14,
+        "name": "Jason Johnson",
+        "img": "avatars/14.jpg",
+        "date": "2022-01-23",
+        "review": "Great tour, great people, great memories. Highly recommended!"
+      },
+      {
+        "id": 15,
+        "name": "Emily Park",
+        "img": "avatars/15.jpg",
+        "date": "2021-08-08",
+        "review": "The tour was very informative, and I learned a lot about the history of the area."
+      }
+    ]
+  }
+}

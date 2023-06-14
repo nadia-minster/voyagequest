@@ -1,13 +1,50 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,300;0,400;0,500;0,700;1,700&family=Martel:wght@300;600;700&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: var(--ff-primary);
+  border: 0;
+  color: var(--clr-dark);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --clr-white: #fffef4;
+  --clr-light: #fffdde;
+  --clr-dark: #2e2c2c;
+  --clr-primary-green: #2c612a;
+  --clr-text-green: #478f41;
+  --clr-light-text-green: #57a94f;
+  --clr-secondary-yellow: #ffe100;
+  --clr-secondary-yellow-dark: #ffea00;
+
+  --ff-primary: "Kanit";
+  --ff-secondary: "Martel";
+
+  --fw-primary-light: 200;
+  --fw-primary-medium-light: 300;
+  --fw-primary-medium-bold: 500;
+  --fw-primary-medium: 400;
+  --fw-primary-bold: 700;
+
+  --fw-secondary-light: 300;
+  --fw-secondary-medium: 600;
+  --fw-secondary-bold: 700;
+
+  --transition-short: 0.3s ease-in;
+
+  --shadow-light: 0 4px 10px #0000001f;
+  --shadow-medium: 0 8px 8px #0000003f;
+}
+
+.btn {
+  background: var(--clr-secondary-yellow);
+  font-weight: var(--fw-primary-bold);
+  cursor: pointer;
+  text-align: center;
+  padding: 10px 20px;
+  transition: var(--transition-short);
 }
