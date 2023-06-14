@@ -1,5 +1,6 @@
 import Hero from "./Hero";
 import FeaturedTours from "./FeaturedTours";
+import FeaturedReviews from "./FeaturedReviews";
 import Quiz from "./Quiz";
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Hero />
       <FeaturedTours />
       <Quiz />
+      <FeaturedReviews />
     </>
   );
 };

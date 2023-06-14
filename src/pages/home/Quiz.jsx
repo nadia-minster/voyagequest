@@ -7,8 +7,8 @@ const Quiz = () => {
     <section className="c-quiz">
       <article className="c-quiz__container">
         <img
-          src={`${process.env.PUBLIC_URL}/images/quiz.png`}
-          alt="cabin in the forest"
+          src={`${process.env.PUBLIC_URL}/images/quiz.jpg`}
+          alt="camper van"
           className="c-quiz__container--image"
         />
         <div className="c-quiz__container--text">
@@ -26,6 +26,7 @@ const Quiz = () => {
           </Link>
         </div>
       </article>
+      <div className="green-section"></div>
     </section>
   );
 };

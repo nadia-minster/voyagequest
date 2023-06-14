@@ -1,20 +1,23 @@
 .c-quiz {
-  height: 400px;
+  height: 380px;
   width: 100%;
   background: var(--clr-light);
   display: flex;
   justify-content: center;
+  position: relative;
+  margin-top: -2rem;
 }
 
 .c-quiz__container {
   height: 300px;
-  width: 80%;
+  width: 75%;
   background: #faf9e6;
   box-shadow: 0 0px 8px #0000003f;
   border-radius: 20px;
   display: flex;
   margin-top: 2rem;
   gap: 30px;
+  z-index: 3;
 }
 
 .c-quiz__container--image {
@@ -57,6 +60,14 @@
   border-radius: 10px;
 }
 
+.green-section {
+  width: 100%;
+  height: 650px;
+  background: var(--clr-primary-green);
+  position: absolute;
+  top: 40%;
+}
+
 @media screen and (max-width: 768px) {
   .c-quiz {
     height: 550px;
@@ -80,5 +91,10 @@
   }
   .btn-quiz {
     margin-top: 10px;
+  }
+
+  .green-section {
+    height: 650px;
+    top: 35%;
   }
 }
