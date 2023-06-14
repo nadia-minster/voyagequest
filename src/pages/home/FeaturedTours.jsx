@@ -1,17 +1,56 @@
+import React from "react";
+import { Link } from "react-router-dom";
+import { useState } from "react";
 import { useGlobalContext } from "../../context/context";
-import { Slide } from "react-slideshow-image";
-import { FaChevronRight, FaChevronLeft } from "react-icons/fa";
-import MediaQuery from "react-responsive";
-
-import "react-slideshow-image/dist/styles.css";
+import { FaChevronCircleLeft, FaChevronCircleRight } from "react-icons/fa";
 import "./cards.css";
 
 const FeaturedTours = () => {
+  const [scrollPerClick, setScrollPerClick] = useState(400);
   const { tours_data } = useGlobalContext();
-  const featuredTours = tours_data.filter((tour) => tour.featured);
+
+  const numCards = 3;
+  const cardWidth = 74 / 3; // Adjust the percentage based on your desired width
+  const sliderWidth = numCards * cardWidth;
+
+  const allTours = tours_data
+    .filter((tour) => tour.featured)
+    .map((tour) => (
+      <div className="c-card" key={tour.id.toString()}>
+        <img
+          className="c-card__image"
+          src={`${process.env.PUBLIC_URL}/images/${tour.img}`}
+          alt={tour.name}
+        />
+        <h3 className="c-card__header">{tour.name}</h3>
+        <p className="c-card__text">{tour.info}</p>
+        <Link to={`/tours/${tour.id}`}>
+          <button className="btn c-card__btn">Learn More</button>
+        </Link>
+      </div>
+    ));
+
+  const sliderScrollLeft = () => {
+    const newScrollAmount = ref.current.scrollLeft - scrollPerClick;
+    ref.current.scrollTo({
+      top: 0,
+      left: newScrollAmount,
+      behavior: "smooth",
+    });
+  };
+
+  const sliderScrollRight = () => {
+    const newScrollAmount = ref.current.scrollLeft + scrollPerClick;
+    ref.current.scrollTo({
+      top: 0,
+      left: newScrollAmount,
+      behavior: "smooth",
+    });
+  };
+  const ref = React.useRef(null);
 
   return (
-    <section className="c-featured">
+    <div className="c-featured">
       <h2 className="c-featured__heading">
         Featured <span className="c-featured__heading--highlight">tours</span>
       </h2>
@@ -20,39 +59,19 @@ const FeaturedTours = () => {
         the world. These featured tours offer unique experiences, amazing
         service, and unforgettable memories.
       </p>
-      <Slide
-        infinite={true}
-        prevArrow={
-          <div className="custom-prev-arrow">
-            <FaChevronLeft />
-          </div>
-        }
-        nextArrow={
-          <div className="custom-next-arrow">
-            <FaChevronRight />
-          </div>
-        }
-      >
-        {featuredTours.map((tour, index) => (
-          <div key={index} className="slide">
-            <div className="card">
-              <div
-                className="slide-image"
-                style={{
-                  backgroundImage: `url('/images/${tour.img}')`,
-                }}
-              >
-                <div className="slide-description">
-                  <h3>{tour.name}</h3>
-                  <p>{tour.info}</p>
-                  <button className="btn">Read more</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </Slide>
-    </section>
+      <div className="c-featured__whitebg"></div>
+      <FaChevronCircleLeft
+        className="c-featured__chevron chevron-prev"
+        onClick={sliderScrollLeft}
+      />
+      <div className="c-featured__cards" ref={ref}>
+        {allTours}
+      </div>
+      <FaChevronCircleRight
+        className="c-featured__chevron chevron-next"
+        onClick={sliderScrollRight}
+      />
+    </div>
   );
 };
 
