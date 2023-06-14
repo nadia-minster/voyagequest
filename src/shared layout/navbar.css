@@ -66,6 +66,7 @@
   transition: height 0.3s ease-in;
   background: var(--clr-light);
   overflow: hidden;
+  z-index: 50;
 }
 
 .c-mobilenav__hidden {
@@ -74,6 +75,7 @@
 
 .c-mobilenav__open {
   height: 300px;
+  z-index: 100;
   box-shadow: var(--shadow-medium);
 }
 

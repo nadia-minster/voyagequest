@@ -8,6 +8,7 @@ const AppContext = ({ children }) => {
   const [answers, setAnswers] = useState([]);
   const [bookedTour, setBookedTour] = useState([]);
   const [search, setSearch] = useState({});
+  const tours_data = tours.tours_data;
 
   return (
     <GlobalContext.Provider
@@ -18,6 +19,7 @@ const AppContext = ({ children }) => {
         setBookedTour,
         search,
         setSearch,
+        tours_data,
       }}
     >
       {children}
