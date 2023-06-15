@@ -11,6 +11,10 @@
   color: var(--clr-dark);
 }
 
+/* * {
+  outline: 1px solid #f00 !important;
+} */
+
 :root {
   --clr-white: #fffef4;
   --clr-light: #fffdde;

@@ -1,8 +1,11 @@
 import { useState } from "react";
 import FilterButton from "./Filter";
 import SortButton from "./SortButton";
+import { useMediaQuery } from "react-responsive";
 
 const SearchSection = (props) => {
+  const isMobile = useMediaQuery({ maxWidth: 768 });
+
   const [isOpen, setIsOpen] = useState(false);
   const handleButtonClick = () => {
     setIsOpen(!isOpen);
@@ -12,7 +15,7 @@ const SearchSection = (props) => {
   };
 
   return (
-    <div className="search">
+    <div className={`search ${!isMobile && "search-desktop"}`}>
       <div className="search-section-closed">
         <SortButton onChange={handleSortChange} />
         <button className="filter-button" onClick={handleButtonClick}>

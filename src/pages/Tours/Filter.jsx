@@ -42,7 +42,7 @@ const Filter = (props) => {
             />
             $500 - $1000
           </label>
-          <label htmlFor="3000" className="checkbox-label">
+          <label htmlFor="2000" className="checkbox-label">
             <input
               type="checkbox"
               name="price"

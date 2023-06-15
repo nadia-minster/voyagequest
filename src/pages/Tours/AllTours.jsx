@@ -1,6 +1,5 @@
 import { useState } from "react";
 import SearchSection from "./SearchSection";
-import { useMediaQuery } from "react-responsive";
 import { useLocation } from "react-router-dom";
 import { useGlobalContext } from "../../context/context";
 import Tours from "./Tours";
@@ -10,11 +9,11 @@ const AllTours = () => {
   const { state } = useLocation();
   const { tours_data } = useGlobalContext();
   const [sortValue, setSortValue] = useState("featured");
-  const [priceValue, setPriceValue] = useState([]);
+  const [priceValue, setPriceValue] = useState(state ? state.price : []);
   const [locationValue, setLocationValue] = useState(
     state ? state.location : []
   );
-  const isMobile = useMediaQuery({ maxWidth: 768 });
+  console.log(priceValue, locationValue);
   const tours = tours_data;
   return (
     <div className="tours">
@@ -34,6 +33,8 @@ const AllTours = () => {
         sortValue={sortValue}
         priceValue={priceValue}
         locationValue={locationValue}
+        setPriceValue={setPriceValue}
+        setLocationValue={setLocationValue}
       />
     </div>
   );

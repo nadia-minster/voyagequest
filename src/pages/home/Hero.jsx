@@ -12,7 +12,7 @@ const Hero = () => {
   const { setSearch } = useGlobalContext();
   const [searchInput, setSearchInput] = useState({
     location: "Asia",
-    budget: 1000,
+    budget: "1000",
   });
 
   const handleLocationSelect = (e) => {
@@ -34,8 +34,8 @@ const Hero = () => {
     setSearch(searchInput);
     navigate("/tours", {
       state: {
-        locationValue: searchInput.location,
-        priceValue: searchInput.budget,
+        location: searchInput.location,
+        price: searchInput.budget,
       },
     });
   };
@@ -48,7 +48,9 @@ const Hero = () => {
       </h1>
       <form onSubmit={handleSubmit} className="c-hero__form">
         <div className="c-hero__form--inputgroup">
-          <label htmlFor="searchLocation">Choose your location</label>
+          <label htmlFor="searchLocation" className="hidden-label">
+            Choose your location
+          </label>
           <FaMapMarkerAlt className="icon" />
           <select
             name="location"
@@ -64,7 +66,9 @@ const Hero = () => {
           </select>
         </div>
         <div className="c-hero__form--inputgroup">
-          <label htmlFor="searchLocation">Choose your location</label>
+          <label htmlFor="searchLocation" className="hidden-label">
+            Choose your location
+          </label>
           <FaDollarSign className="icon" />
           <select
             name="budget"
@@ -72,9 +76,9 @@ const Hero = () => {
             className="form-input"
             onChange={handleBudgetSelect}
           >
-            <option value="cheap">$1000</option>
-            <option value="medium">$1000-$2000</option>
-            <option value="expensive">$2000+</option>
+            <option value="1000">$1000</option>
+            <option value="2000">$1000-$3000</option>
+            <option value="3001">$3000+</option>
           </select>
         </div>
         <button type="submit" className="btn c-hero__form--button">
