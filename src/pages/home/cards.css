@@ -34,7 +34,6 @@
 
 .c-featured__text {
   align-self: start;
-
   color: #fffef4;
   margin: 1rem;
   font-size: clamp(1.15rem, 3vw, 1.55rem);

@@ -1,13 +1,15 @@
 import { useState } from "react";
-
+import { useNavigate } from "react-router-dom";
+import { useGlobalContext } from "../../context/context";
 import { useMediaQuery } from "react-responsive";
 import { FaMapMarkerAlt, FaDollarSign } from "react-icons/fa";
 import "./home.css";
 
 const Hero = () => {
   const isMobile = useMediaQuery({ maxWidth: 600 });
+  const navigate = useNavigate();
   const word = isMobile ? " trip" : " adventure";
-
+  const { setSearch } = useGlobalContext();
   const [searchInput, setSearchInput] = useState({
     location: "Asia",
     budget: 1000,
@@ -29,7 +31,13 @@ const Hero = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(searchInput);
+    setSearch(searchInput);
+    navigate("/tours", {
+      state: {
+        locationValue: searchInput.location,
+        priceValue: searchInput.budget,
+      },
+    });
   };
 
   return (

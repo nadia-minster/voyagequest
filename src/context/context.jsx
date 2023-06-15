@@ -25,6 +25,8 @@ const AppContext = ({ children }) => {
         tours_data,
         reviews,
         quiz,
+        search,
+        setSearch,
       }}
     >
       {children}
