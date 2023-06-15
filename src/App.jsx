@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import SharedLayout from "./shared layout/SharedLayout";
-import Home from "./pages/Home/Home";
+import Home from "./pages/HomeComponents/Home";
 import TourPage from "./pages/Single Tour/TourPage";
 import StartQuiz from "./pages/Quiz/StartQuiz";
 import QuizResult from "./pages/Quiz/QuizResult";
