@@ -57,7 +57,9 @@ const FeaturedTours = () => {
         </div>
         <p>{item.review.review}</p>
       </div>
-      <button className="btn c-card__btn">Show Tour</button>
+      <Link to={`/tours/${item.tour.id}`}>
+        <button className="btn c-card__btn">Show Tour</button>
+      </Link>
     </div>
   ));
 

@@ -16,6 +16,7 @@
   border-radius: 20px;
   display: flex;
   width: 90%;
+  min-height: 700px;
   height: fit-content;
 }
 
@@ -204,7 +205,6 @@
 .review-text {
   line-height: 1.1rem;
   margin-left: 10px;
-  width: 50%;
   text-align: left;
 }
 
@@ -214,12 +214,13 @@
 
 .date-and-rating {
   display: flex;
+  justify-self: flex-end;
 }
 
 .text-and-rating {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .star {
