@@ -62,6 +62,12 @@
   top: 1940px;
 }
 
+@media screen and (max-width: 415px) {
+  .c-reviews__cards {
+    width: 90vw !important;
+  }
+}
+
 .c-reviews__chevron {
   font-size: 2.5rem;
   position: absolute;
@@ -135,5 +141,21 @@
   }
   .c-card__avatar {
     top: 70%;
+  }
+}
+
+@media screen and (min-width: 1143px) {
+  .c-card__avatar {
+    top: 90%;
+  }
+  .c-card-review {
+    height: 430px;
+  }
+  .c-reviews {
+    height: 780px;
+  }
+
+  .c-reviews__cards {
+    gap: 35px;
   }
 }

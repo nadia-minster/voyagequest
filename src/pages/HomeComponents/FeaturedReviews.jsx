@@ -28,7 +28,7 @@ const FeaturedTours = () => {
   });
 
   const numCards = 3;
-  const cardWidth = 74 / 3; // Adjust the percentage based on your desired width
+  const cardWidth = 74 / 3;
   const sliderWidth = numCards * cardWidth;
 
   const tour = featuredReviews.map((item, index) => (
@@ -62,23 +62,6 @@ const FeaturedTours = () => {
       </Link>
     </div>
   ));
-
-  const allTours = tours_data
-    .filter((tour) => tour.featured)
-    .map((tour) => (
-      <div className="c-card" key={tour.id.toString()}>
-        <img
-          className="c-card__image"
-          src={`${process.env.PUBLIC_URL}/images/${tour.img}`}
-          alt={tour.name}
-        />
-        <h3 className="c-card__header">{tour.name}</h3>
-        <p className="c-card__text">{tour.info}</p>
-        <Link to={`/tours/${tour.id}`}>
-          <button className="btn c-card__btn">Learn More</button>
-        </Link>
-      </div>
-    ));
 
   const sliderScrollLeft = () => {
     const newScrollAmount = ref.current.scrollLeft - scrollPerClick;
