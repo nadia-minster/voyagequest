@@ -33,7 +33,7 @@ const SingleBookedTour = (props) => {
                 {discount === "QUIZ20" ? (
                   <h4>{`$${tour.price - tour.price * 0.2}`}</h4>
                 ) : (
-                  <p>`${tour.price}</p>
+                  <p>${tour.price}</p>
                 )}
               </div>
             </div>

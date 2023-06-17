@@ -73,6 +73,7 @@
   background: var(--clr-white);
   outline: none;
   text-align: center;
+  -webkit-text-align: center;
   color: var(--clr-dark);
   z-index: 1;
   appearance: none;
