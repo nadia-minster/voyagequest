@@ -57,6 +57,7 @@ const Hero = () => {
             id="location"
             className="form-input"
             onChange={handleLocationSelect}
+            style={{ textAlign: "center" }}
           >
             <option value="Asia">Asia</option>
             <option value="Europe">Europe</option>
@@ -75,6 +76,7 @@ const Hero = () => {
             id="budget"
             className="form-input"
             onChange={handleBudgetSelect}
+            style={{ textAlign: "center" }}
           >
             <option value="1000">$1000</option>
             <option value="2000">$1000-$3000</option>

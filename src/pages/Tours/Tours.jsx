@@ -71,7 +71,7 @@ const Tours = (props) => {
             <div className="tour-grid" key={tour.id}>
               <img
                 className="tour-grid-img"
-                src={`${process.env.PUBLIC_URL}/images//${tour.img}`}
+                src={`${process.env.PUBLIC_URL}/images/${tour.img}`}
                 alt={`${tour.name}`}
               />
               <div className="tour-grid-info">
