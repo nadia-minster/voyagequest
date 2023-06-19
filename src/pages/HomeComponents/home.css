@@ -6,7 +6,7 @@
 
 .c-hero {
   display: flex;
-  background-size: cover;
+  background-size: cover !important;
   height: 60vh;
   min-height: 500px;
   box-shadow: var(--shadow-medium);
