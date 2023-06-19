@@ -59,6 +59,7 @@ const Hero = () => {
         background: `${
           imageLoaded ? `url(${background})` : `url(${backgroundPlaceholder})`
         }`,
+        transition: "background 0.3s ease-in",
         backgroundSize: "cover",
       }}
     >
