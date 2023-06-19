@@ -6,7 +6,7 @@
   box-sizing: border-box;
   list-style-type: none;
   text-decoration: none;
-  font-family: var(--ff-primary);
+  font-family: var(--ff-primary), sans-serif;
   border: 0;
   color: var(--clr-dark);
 }

@@ -5,7 +5,6 @@
 }
 
 .c-hero {
-  background-image: url("../../assets/background.png");
   display: flex;
   background-size: cover;
   height: 60vh;

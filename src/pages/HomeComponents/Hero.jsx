@@ -1,11 +1,15 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGlobalContext } from "../../context/context";
 import { useMediaQuery } from "react-responsive";
 import { FaMapMarkerAlt, FaDollarSign } from "react-icons/fa";
+import background from "../../assets/background.png";
+import backgroundPlaceholder from "../../assets/background-lowres.jpg";
 import "./home.css";
 
 const Hero = () => {
+  const [imageLoaded, setImageLoaded] = useState(false);
+
   const isMobile = useMediaQuery({ maxWidth: 600 });
   const navigate = useNavigate();
   const word = isMobile ? " trip" : " adventure";
@@ -14,6 +18,14 @@ const Hero = () => {
     location: "Asia",
     budget: "1000",
   });
+
+  useEffect(() => {
+    const backgroundImage = new Image();
+    backgroundImage.src = background;
+    backgroundImage.onload = () => {
+      setImageLoaded(true);
+    };
+  }, []);
 
   const handleLocationSelect = (e) => {
     setSearchInput((prevState) => ({
@@ -41,7 +53,15 @@ const Hero = () => {
   };
 
   return (
-    <header className="c-hero">
+    <header
+      className="c-hero"
+      style={{
+        background: `${
+          imageLoaded ? `url(${background})` : `url(${backgroundPlaceholder})`
+        }`,
+        backgroundSize: "cover",
+      }}
+    >
       <h1 className="c-hero__heading">
         Find your <span className="c-hero__heading--highlight">perfect</span>
         {word}
