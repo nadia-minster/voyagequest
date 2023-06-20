@@ -72,10 +72,11 @@
   background: var(--clr-white);
   outline: none;
   text-align: center;
-  -webkit-text-align: center;
+  text-align-last: center;
   color: var(--clr-dark);
   z-index: 1;
   appearance: none;
+  -moz-text-align-last: center;
   -moz-appearance: none;
   -webkit-appearance: none;
 }
