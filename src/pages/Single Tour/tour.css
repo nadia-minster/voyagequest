@@ -214,13 +214,14 @@
 
 .date-and-rating {
   display: flex;
-  justify-self: flex-end;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 .text-and-rating {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .star {
